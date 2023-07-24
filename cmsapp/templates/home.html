@@ -1,0 +1,18 @@
+{% load static %}
+
+<html>
+<head>
+	<title>CMS App</title>
+<link rel="stylesheet" href= " {% static 'c1.css' %}">
+</head>
+
+<body>
+<center>
+	<h1>Home Page</h1>
+<nav>
+	<a href="{% url 'home' %}">Home<a/>
+	<a href="{% url 'dept' %}">Deptartment<a/>
+</nav>
+</center>
+</body>
+</html>

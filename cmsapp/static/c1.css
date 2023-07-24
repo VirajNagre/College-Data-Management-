@@ -1,0 +1,27 @@
+body {
+background:lightyellow;
+font-size:1.5rem;
+font-family:Arial;
+margin:0;
+}
+
+nav{
+background:coral;
+padding:15px;
+}
+
+table{
+width:60%;
+text-align:center;
+}
+
+td{
+background:white;
+padding:10px;
+}
+
+
+th{
+background:#e6c327;
+padding:10px;
+}
